@@ -1,0 +1,10 @@
+run("Subtract Background...", "rolling=50");
+run("8-bit");
+setAutoThreshold("Default dark no-reset");
+setOption("BlackBackground", true);
+run("Auto Threshold", "method=Otsu white");
+run("Fill Holes");
+run("Set Measurements...", "fit shape redirect=None decimal=3");
+run("Analyze Particles...", "display clear");
+run("Pasta Plugin");
+
