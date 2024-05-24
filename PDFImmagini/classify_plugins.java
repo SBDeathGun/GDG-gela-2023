@@ -7,6 +7,12 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
+/*
+--------------------------------------------------
+Programma fatto da: Ferrera 
+--------------------------------------------------
+*/
+
 public class classify_plugins implements PlugInFilter {
     ImagePlus imp;
 
