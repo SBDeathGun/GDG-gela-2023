@@ -2,6 +2,14 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
+/*
+--------------------------------------------------
+Programma fatto da: 
+                    Ferrera Orazio
+                    Di Dio Andrea
+--------------------------------------------------
+*/
+
 public class MainClassify {
     public static void main(String[] args) {
         File folder = new File("PdfLingue");
